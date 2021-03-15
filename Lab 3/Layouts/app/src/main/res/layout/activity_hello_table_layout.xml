@@ -1,0 +1,93 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    >
+    <TableRow>
+        <TextView
+            android:text="  Hello Table Layout"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#808080"
+            android:textSize="18dp"
+            >
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="       Open..."
+            android:textColor="#808080"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            >
+        </TextView>
+
+        <TextView
+            android:textSize="16dp"
+            android:layout_column="50"
+            android:text="     Ctrl+O"
+            android:textColor="#808080"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="16dp"
+            android:text="       Save..."
+            android:textColor="#808080"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="16dp"
+            android:text="       Save as..."
+            android:textColor="#808080"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </TableRow>
+  <View
+      android:layout_marginTop="10dp"
+      android:layout_width="fill_parent"
+      android:layout_height="1dp"
+      android:background="#808080"
+      >
+  </View>
+    <TableRow>
+        <TextView
+            android:textSize="16dp"
+            android:text="       X Import..."
+            android:textColor="#808080"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="16dp"
+            android:text="       X Export..."
+            android:textColor="#808080"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </TableRow>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#808080"
+        >
+    </View>
+    <TableRow>
+        <TextView
+            android:textSize="16dp"
+            android:text="       Quit"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </TableRow>
+
+</TableLayout>
